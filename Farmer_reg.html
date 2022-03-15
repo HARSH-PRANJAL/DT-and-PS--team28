@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FARMER_PAGE.css">
+    
+    <title>Farmer_registration_page</title>
+  </head>
+   <body>
+      <main>
+          <section>
+            <h1 class="main_heading">Registration</h1>
+            <hr>
+            <form action="get">
+                <fieldset>
+                <legend>Personal information</legend>
+                <p>Name* <input type="text" required class="form name"></p>
+                <p class="location">Adhar number* <input required type="number" class="form Registration"></p>
+                <p>Email <input placeholder="not necessary" type="email" class="form email"></p>
+                <p>Phone number* <input type="number" class="form phone" required></p>
+                <p>Date of birth <input type="date" class="form dob"></p>
+                <p>Gender <select >
+                    <option value="#">select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="trans">Others</option></select></p>
+                <p class="location">Address <textarea class="form address"></textarea></p>
+                <p>Pincode <input type="number" class="form pin"></p>
+            </fieldset>
+            <fieldset>
+                <legend>Land information</legend>
+                <p>Size of Land 
+                <select id="">
+                    <option value="Less then 3acr">Less then 3acr</option>
+                    <option value="Less then 3acr">From 3acr to 10acr</option>
+                    <option value="Less then 3acr">more then 10acr</option>
+                </select></p>
+                <p>Plot number <textarea name="" class="form address" ></textarea></p>
+                <p>State
+                <select id="">
+                    <option value="#">choose one</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Gujrat">Gujrat</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Odisha">Odisha</option>
+                </select>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Production</legend>
+                <p>Type of crop you produce
+                    <select id="">
+                        <option value="#">choose one</option>
+                        <option value="Rice">Rice</option>
+                        <option value="Wheat">Wheat</option>
+                        <option value="Cotton">Cotton</option>
+                        <option value="Sugarcane">Sugarcane</option>
+                    </select>
+                </p>
+            </fieldset>
+            <input type="submit" class="submit" placeholder="SUBMIT"><a href="#"></a>          
+        </section>
+    </main>
+</body>
+</html>

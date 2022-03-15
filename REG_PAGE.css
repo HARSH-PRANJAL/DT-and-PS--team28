@@ -1,0 +1,44 @@
+
+.navs{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 50px;
+    padding: 5px;
+}
+img{
+    width: 250px ;
+    height: 250px ;
+    margin: 10px 10px 50px 10px;
+}
+div{
+    display: flexbox;
+    background-color: antiquewhite;
+    height: auto;
+    width: 300px;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 2px;
+}
+
+.navigation{  
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
